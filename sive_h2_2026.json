@@ -1,0 +1,66 @@
+{
+  "ticker": "SIVE",
+  "company": "Sivers Semiconductors AB",
+  "market": "Europe (OMXSTO) / OTC: SIVEF",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 5,
+    "architecture_coupling": 4,
+    "chokepoint_severity": 3.5,
+    "supplier_concentration": 3,
+    "expansion_difficulty": 4,
+    "evidence_quality": 4,
+    "valuation_disconnect": 1,
+    "catalyst_timing": 4
+  },
+  "penalties": {
+    "dilution_financing": 4,
+    "governance": 1,
+    "geopolitics": 2,
+    "liquidity": 2,
+    "hype_risk": 4,
+    "accounting_quality": 3,
+    "cyclicality": 2,
+    "alternative_design_risk": 3
+  },
+  "evidence": [
+    {
+      "claim": "LiDAR customer production ramp confirmed Q4 2026, $53-138M lifecycle revenue",
+      "source": "Sivers official press release, PR Newswire, March 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "CPO/ELS partnership with O-Net and Enablence for AI datacenter external light sources",
+      "source": "Sivers official press release, March 17 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Tier-1 telecom OEM (Nokia likely) $5.4M mmWave beamformer development program",
+      "source": "Sivers official press release; customer unconfirmed",
+      "strength": "primary"
+    },
+    {
+      "claim": "Nvidia $4B lock-in of Lumentum + Coherent confirms InP laser structural shortage",
+      "source": "TrendForce, SDxCentral, iConnect007, March 2026",
+      "strength": "media"
+    },
+    {
+      "claim": "2025 EBIT loss restated from -SEK 141M to -SEK 178M under PCAOB audit uplift",
+      "source": "Sivers 2025 Annual Report, May 13 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "June 2026 AGM has ~15% dilution authorization pending",
+      "source": "Ad-hoc-news.de; Sivers AGM notice",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "LiDAR production ramp slips from Q4 2026 to Q1-Q2 2027 — automotive start-of-production delays are common",
+    "June AGM dilution (15%) approved and additional emergency equity raise before LiDAR revenue materializes",
+    "PCAOB audit reveals further accounting adjustments, widening losses beyond restated -SEK 178M",
+    "MSCI-inclusion rally reverses on index rebalancing — passive outflow from thin-float stock",
+    "Silicon photonics ELS matures faster than expected, reducing hyperscaler demand for standalone InP lasers",
+    "Nokia beamformer program does not convert to volume production orders"
+  ]
+}

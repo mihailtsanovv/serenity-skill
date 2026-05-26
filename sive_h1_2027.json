@@ -1,0 +1,55 @@
+{
+  "ticker": "SIVE",
+  "company": "Sivers Semiconductors AB",
+  "market": "Europe (OMXSTO) / Nasdaq US (if dual-listed)",
+  "period": "H1 2027",
+  "factors": {
+    "demand_inflection": 5,
+    "architecture_coupling": 4,
+    "chokepoint_severity": 4,
+    "supplier_concentration": 3,
+    "expansion_difficulty": 4,
+    "evidence_quality": 5,
+    "valuation_disconnect": 2.5,
+    "catalyst_timing": 3
+  },
+  "penalties": {
+    "dilution_financing": 3,
+    "governance": 1,
+    "geopolitics": 2,
+    "liquidity": 1,
+    "hype_risk": 2,
+    "accounting_quality": 2,
+    "cyclicality": 2,
+    "alternative_design_risk": 3
+  },
+  "evidence": [
+    {
+      "claim": "LiDAR revenue flowing in H1 2027 — Q4 2026 ramp confirmed; first invoiced revenue expected",
+      "source": "Derived from March 2026 production ramp announcement; Q1 2027 interim report (forward)",
+      "strength": "primary"
+    },
+    {
+      "claim": "Nasdaq dual listing PCAOB audit expected to complete H2 2026, unlocking US institutional buyers",
+      "source": "Sivers 2025 Annual Report, May 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "CPO procurement wave 2 emerging — second-source InP demand as Lumentum/Coherent capacity remains constrained",
+      "source": "TrendForce structural supply shortage analysis; industry inference",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Revenue approaching SEK 400-450M range — 30-45% growth if LiDAR + CPO both ramping",
+      "source": "Serenity forward estimate based on confirmed backlog and guidance",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Nasdaq listing delayed beyond H1 2027 — PCAOB process more complex than expected",
+    "Revenue growth only 15-20% (not 30-45%), leaving P/S still above 40x and stock vulnerable",
+    "CPO commercial orders do not emerge for Sivers specifically — hyperscalers continue routing to Lumentum/Coherent",
+    "Cash runway forces another equity raise at discount before Nasdaq listing proceeds",
+    "Alternative design: quantum dot lasers displace CW DFB InP in CPO architecture by 2027"
+  ]
+}
