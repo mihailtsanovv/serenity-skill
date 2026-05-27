@@ -1,0 +1,81 @@
+{
+  "ticker": "XFAB",
+  "company": "X-FAB Silicon Foundries SE",
+  "market": "Europe (Euronext Paris / OTC: XFABF)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 4.5,
+    "architecture_coupling": 4.0,
+    "chokepoint_severity": 4.5,
+    "supplier_concentration": 4.0,
+    "expansion_difficulty": 4.0,
+    "evidence_quality": 5.0,
+    "valuation_disconnect": 2.0,
+    "catalyst_timing": 3.5
+  },
+  "penalties": {
+    "dilution_financing": 1.0,
+    "governance": 1.0,
+    "geopolitics": 2.0,
+    "liquidity": 2.0,
+    "hype_risk": 3.0,
+    "accounting_quality": 1.0,
+    "cyclicality": 4.0,
+    "alternative_design_risk": 2.0
+  },
+  "evidence": [
+    {
+      "claim": "SiC / wide bandgap revenue +152% YoY in Q1 2026; wafer shipments nearly tripling",
+      "source": "X-FAB Q1 2026 earnings call highlights, Yahoo Finance / Morningstar, April 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Industrial revenue +32% YoY in Q1 2026 driven by data center power management (SiC)",
+      "source": "X-FAB Q1 2026 earnings call transcript, GruruFocus",
+      "strength": "primary"
+    },
+    {
+      "claim": "TFLN-on-SiN on 200mm wafers industrialized at Photonics West 2026; >120 GHz modulator bandwidth; risk production H1 2026",
+      "source": "LIGENTEC + X-FAB official press release; Fibre Systems; Semiconductor Today, January 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "X-FAB + SMART Photonics: InP-on-silicon heterogeneous integration; early access Q1 2026; production readiness 2027",
+      "source": "X-FAB official press release, OFC 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "2025 full-year revenue $870.3M +7%; EBITDA $196.8M (22.6%); net income $30.1M (down from $61.5M)",
+      "source": "X-FAB Q4 2025 full year results, BusinessWire, February 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Automotive Q4 2025 revenue -15% YoY; inventory days 204 vs 143 10-year average",
+      "source": "X-FAB Q4 2025 results; Deutsche Bank downgrade note, Investing.com",
+      "strength": "primary"
+    },
+    {
+      "claim": "Stock at EUR 8.87 vs analyst average target EUR 5.34 — 66% premium to consensus; Hold rating",
+      "source": "AlphaSpread; eToro; MarketScreener consensus, May 2026",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Only independent pure-play SiC foundry in Europe — Wolfspeed, ST, Onsemi, Infineon are vertically integrated IDMs",
+      "source": "Industry analysis; SiC market structure reports; no comparable European third-party SiC foundry identified",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Melexis accounts for 34-45% of total X-FAB revenue; Melexis Q1 2026 bookings fell short on customer inventory adjustments",
+      "source": "X-FAB annual filings; Melexis February 2026 trading update; ad-hoc-news.de",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Melexis loses automotive sensor market share to ST/Infineon — X-FAB revenues fall proportionally given 34-45% concentration",
+    "Automotive destocking extends through full 2026 — 204-day inventory normalization takes 4-6 more quarters; EBITDA margin compressed by fixed fab costs at low utilization",
+    "Heavy $1B capex cycle 2023-2025 does not yield expected SiC/photonics revenue — free cash flow stays negative, balance sheet stress builds",
+    "8-inch SiC transition: X-FAB locked on 6-inch while major IDMs move to 8-inch; relative cost disadvantage widens over 2026-2027",
+    "TFLN product revenue slips to 2028+ — CPO adoption slower than expected; X-FAB carries photonics NRE costs without offsetting revenue",
+    "Chinese SiC foundry capacity floods market — substrate + foundry service price deflation compresses X-FAB SiC margins"
+  ]
+}

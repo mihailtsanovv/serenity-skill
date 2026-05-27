@@ -1,0 +1,65 @@
+{
+  "ticker": "XFAB",
+  "company": "X-FAB Silicon Foundries SE",
+  "market": "Europe (Euronext Paris / OTC: XFABF)",
+  "period": "H1 2027",
+  "factors": {
+    "demand_inflection": 5.0,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 4.5,
+    "supplier_concentration": 4.0,
+    "expansion_difficulty": 4.0,
+    "evidence_quality": 5.0,
+    "valuation_disconnect": 3.0,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 1.0,
+    "governance": 1.0,
+    "geopolitics": 2.0,
+    "liquidity": 1.5,
+    "hype_risk": 2.0,
+    "accounting_quality": 1.0,
+    "cyclicality": 2.5,
+    "alternative_design_risk": 2.0
+  },
+  "evidence": [
+    {
+      "claim": "TFLN first product revenue expected — risk production H1 2026 complete; volume production early 2027 on track",
+      "source": "LIGENTEC + X-FAB roadmap, January 2026; X-FAB Q1 2026 commentary",
+      "strength": "primary"
+    },
+    {
+      "claim": "SiC data center demand sustained through multiple quarters — structural shift from EV-only to EV + datacenter power",
+      "source": "X-FAB Q1 2026 earnings; forward demand signals from datacenter SiC power electronics market",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Automotive inventory normalization underway — 204 days vs 143-day average; mathematical reversion within 2-4 quarters of H2 2026",
+      "source": "X-FAB Q4 2025 results; historical automotive semi inventory cycle data",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Revenue trajectory toward $950M-$1B if SiC sustains and auto recovers — at EUR 1.05B market cap implies ~1.1x forward P/S and ~4.5x EBITDA",
+      "source": "Serenity forward estimate from Q1 2026 growth rates and automotive cycle recovery assumptions",
+      "strength": "analysis"
+    },
+    {
+      "claim": "InP-on-silicon production readiness with SMART Photonics by 2027 — first Western fab offering heterogeneous InP+SiPh integration",
+      "source": "X-FAB + SMART Photonics official partnership announcement, OFC 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Medical revenue +39% YoY Q1 2026 — pacemakers, ultrasound, DNA sequencing; structural growth independent of auto/SiC cycle",
+      "source": "X-FAB Q1 2026 results, Morningstar",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Automotive recovery is shallower than expected — Melexis gains only partial bookings recovery; structural EV slowdown reduces auto analog total addressable market",
+    "TFLN first commercial customers are small/niche — no hyperscaler or major transceiver OEM adopts; TFLN revenue stays sub-$10M through 2027",
+    "Analyst consensus upgrades do not materialize — stock at 66% premium to consensus corrects before fundamentals catch up",
+    "SiC 8-inch transition forces large unplanned capex — free cash flow remains negative for longer; debt load rises",
+    "GaN-on-Si matures faster than expected at medium power levels — competes with SiC in data center power; limits X-FAB SiC TAM expansion"
+  ]
+}
