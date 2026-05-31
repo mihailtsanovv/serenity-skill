@@ -1,0 +1,76 @@
+{
+  "ticker": "ASPI",
+  "company": "ASP Isotopes Inc.",
+  "market": "US (Nasdaq: ASPI)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 4.0,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 3.0,
+    "supplier_concentration": 4.0,
+    "expansion_difficulty": 4.5,
+    "evidence_quality": 3.5,
+    "valuation_disconnect": 2.0,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 4.0,
+    "governance": 3.0,
+    "geopolitics": 2.0,
+    "liquidity": 1.5,
+    "hype_risk": 4.0,
+    "accounting_quality": 3.0,
+    "cyclicality": 1.5,
+    "alternative_design_risk": 2.5
+  },
+  "evidence": [
+    {
+      "claim": "QE laser system commissioned April 2025; producing Yb-176 commercial samples at 99.75% enrichment; commercial shipments targeted mid-2026",
+      "source": "ASP Isotopes press release, GlobeNewswire, April 1, 2025; Q1 2026 business update",
+      "strength": "primary"
+    },
+    {
+      "claim": "Si-28 ASP facility restarted after engineering enhancements; 18 stages operational as of May 26, 2026; commercial shipments expected Q3 2026",
+      "source": "ASP Isotopes press release, GlobeNewswire, May 26, 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "TerraPower definitive agreements: $20M conditional loan + $375M initial HALEU core supply + 150 MT / 10-year framework (2028-2037); all conditioned on licensing",
+      "source": "ASP Isotopes press release, GlobeNewswire, May 19, 2025; Justia contract database",
+      "strength": "primary"
+    },
+    {
+      "claim": "Mo-100 supply agreement: 25-year contract at up to $27M/year; C-14 agreement ~$2.5M/year take-or-pay (Canadian customer); Gd-160/Isotopia 4-year minimum $1M/year",
+      "source": "ASP Isotopes IR press releases, 2023-2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Renergen acquisition closed January 2026; Phase 1 LNG + helium production underway in South Africa; nameplate capacity target Q3 2026; ~$20M annual revenue at Phase 1 scale",
+      "source": "ASP Isotopes press release, January 2026; Renergen operational updates",
+      "strength": "primary"
+    },
+    {
+      "claim": "Yb-176 to Lu-177 supply chain: non-Russian commercial Yb-176 at 99.75% enrichment is genuinely scarce; Lu-177 treatment delays exceeding 2 months documented in industry",
+      "source": "Industry reports on Lu-177 supply constraints; Novartis Pluvicto supply chain disclosures",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Securities fraud class action in SDNY survived motion to dismiss December 4, 2025 — core allegation that ASPI never tested enrichment technology on uranium found plausible by court",
+      "source": "SDNY court docket; PRNewswire law firm announcement, December 2024; court ruling December 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "FY2025 revenue $23.85M; but $18.1M was Skyline Hong Kong construction; core isotope + radiopharmacy revenue ~$5.7M; operating loss $175.1M; cash $333M year-end 2025",
+      "source": "ASP Isotopes 10-K FY2025, SEC filing 2026; StockTitan analysis",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "SDNY securities fraud litigation reveals ASPI made materially false claims about uranium enrichment capability — QE has never been tested on UF6; HALEU thesis collapses into a small isotope enrichment story at 10-15x lower valuations",
+    "Si-28 and Yb-176 commercial shipments miss Q3 2026 / mid-2026 targets again — second consecutive slip signals deeper engineering challenges in ASP/QE processes",
+    "South African NNR uranium enrichment license not filed or denied — Pelindaba pre-implementation agreement is a planning contract, not a license; nuclear licensing typically 7-15 years for novel technologies",
+    "TerraPower conditional loan never disbursed — implies licensing not progressing; $375M supply agreement remains on paper indefinitely",
+    "Renergen Phase 1 helium misses nameplate capacity in Q3 2026 — delays the only near-term cash-flow catalyst; Phase 2 timeline (44 months post-Phase 1) slips correspondingly",
+    "Centrus $900M DOE expansion captures all near-term US HALEU demand by 2029 — US customers prefer NRC-licensed domestic supply over South African production"
+  ]
+}

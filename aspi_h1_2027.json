@@ -1,0 +1,65 @@
+{
+  "ticker": "ASPI",
+  "company": "ASP Isotopes Inc.",
+  "market": "US (Nasdaq: ASPI)",
+  "period": "H1 2027",
+  "factors": {
+    "demand_inflection": 4.5,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 3.5,
+    "supplier_concentration": 4.0,
+    "expansion_difficulty": 4.5,
+    "evidence_quality": 4.0,
+    "valuation_disconnect": 2.5,
+    "catalyst_timing": 3.5
+  },
+  "penalties": {
+    "dilution_financing": 3.0,
+    "governance": 2.0,
+    "geopolitics": 2.0,
+    "liquidity": 1.5,
+    "hype_risk": 3.0,
+    "accounting_quality": 2.5,
+    "cyclicality": 1.5,
+    "alternative_design_risk": 2.5
+  },
+  "evidence": [
+    {
+      "claim": "Commercial Si-28 shipments confirmed Q3 2026 — first isotope enrichment product at genuine commercial scale outside Russia",
+      "source": "Derived from May 2026 facility restart; expected Q3 2026 shipment milestone",
+      "strength": "primary"
+    },
+    {
+      "claim": "Commercial Yb-176 shipments flowing by H2 2026 — non-Russian Lu-177 precursor supply chain contribution materializing",
+      "source": "Derived from April 2025 QE commissioning; commercial shipment timeline mid-2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Renergen Phase 1 LNG + helium at nameplate capacity through H2 2026 — first non-isotope, non-construction revenue stream confirmed; ~$20M annual run rate",
+      "source": "Derived from Q3 2026 nameplate capacity target; Renergen operational updates",
+      "strength": "analysis"
+    },
+    {
+      "claim": "QLE / Necsa HALEU facility: South African NNR license application filed or conditional approval received by H1 2027 — required to unlock TerraPower $20M loan first tranche",
+      "source": "ASPI/Necsa Pre-Implementation Services Contract, February 2026; TerraPower agreement conditions",
+      "strength": "analysis"
+    },
+    {
+      "claim": "HALEU demand acceleration: TerraPower Kemmerer 1 construction on schedule (commercial 2031); Meta 8-reactor commitment (first 2032); DOE HALEU demand projection 40,000+ kg by 2030 vs Centrus ~900 kg/yr current capacity",
+      "source": "TerraPower April 2026 construction start; Meta/TerraPower January 2026 announcement; DOE HALEU demand projections",
+      "strength": "primary"
+    },
+    {
+      "claim": "European HALEU MOU: unnamed European nuclear technology company, non-binding, HALEU supply beginning 2028 through December 2030 — second HALEU customer relationship beyond TerraPower",
+      "source": "ASP Isotopes / QLE press release, GlobeNewswire, May 11, 2026",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "No nuclear enrichment license anywhere in the world by H1 2027 — HALEU production at 2027 remains aspirational; TerraPower agreements remain permanently conditional; company pivots narrative without delivering",
+    "SDNY securities fraud litigation unresolved and damaging — depositions reveal no documented uranium tests; institutional investors exit; stock reprices to pure isotope/helium sum-of-parts (~$200-250M)",
+    "Yb-176/Lu-177 market disrupted by alternative radionuclides — actinium-225, copper-67, or other therapies gain FDA approval; Lu-177 demand growth moderates; Yb-176 chokepoint loses value",
+    "QLE spin-off as separate public company never executes — management distraction; capital not raised for HALEU facility; Pelindaba project stalls at planning phase",
+    "Renergen Phase 2 (44 months post-Phase 1) timeline slips — the $300M EBITDA 2030 target relies heavily on Phase 2 helium scale; Phase 1 engineering issues delay the clock"
+  ]
+}
