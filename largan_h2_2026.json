@@ -1,0 +1,76 @@
+{
+  "ticker": "3008",
+  "company": "Largan Precision Co., Ltd.",
+  "market": "Taiwan (TWSE: 3008)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 3.5,
+    "architecture_coupling": 4.0,
+    "chokepoint_severity": 4.0,
+    "supplier_concentration": 3.5,
+    "expansion_difficulty": 4.5,
+    "evidence_quality": 5.0,
+    "valuation_disconnect": 4.0,
+    "catalyst_timing": 3.5
+  },
+  "penalties": {
+    "dilution_financing": 0.0,
+    "governance": 1.0,
+    "geopolitics": 2.5,
+    "liquidity": 0.0,
+    "hype_risk": 1.5,
+    "accounting_quality": 0.0,
+    "cyclicality": 2.0,
+    "alternative_design_risk": 2.5
+  },
+  "evidence": [
+    {
+      "claim": "FY2025 revenue NT$61.15B — all-time record, surpassing 2019 peak; Q1 2026 NT$15.54B (+7% YoY), record Q1; April 2026 +24% YoY; 4M 2026 cumulative +11% YoY",
+      "source": "Digitimes January 2026; Digitimes May 2026; Largan TWSE monthly filings",
+      "strength": "primary"
+    },
+    {
+      "claim": "Largan is exclusive or dominant supplier of periscope/tetraprism lenses for iPhone — 85-90% of Apple's periscope procurement; only GSEO has broken in as secondary supplier for iPhone 16 Pro",
+      "source": "Digitimes supply chain reports; Ming-Chi Kuo analyst notes; 9to5Mac tetraprism patent battle report November 2023",
+      "strength": "primary"
+    },
+    {
+      "claim": "Largan declined Apple's request to increase variable aperture lens orders for iPhone 18 Pro, citing prioritization of CPO resources — Apple shifted primary variable aperture supply to Sunny Optical (40-50% allocation); Largan retained secondary role by choice",
+      "source": "BigGo Finance; WCCFTech; Geeky Gadgets; Fudzilla; May 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "CPO/FAU collaboration with TSMC: samples delivered to TSMC for AMD-related project testing; Largan PhotoniCore Technologies subsidiary; mass production 2027-2028",
+      "source": "TrendForce, January 5, 2026; Digitimes April 23, 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Humanoid robot vision: Largan entered mass production of precision visual recognition lens systems for humanoid service robots in 2025; overseas shipments delayed from 2025 to 2026",
+      "source": "Digitimes October 9, 2025; Digitimes June 9, 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Cash position: NT$123.67B (~US$3.9B) as of June 2025 — 34% of market cap in cash; cash per share NT$926; record NT$179.6B buyback authorized December 2025; dividend yield ~3.75%",
+      "source": "Financial data aggregators; Taiwan News December 2025; multiple dividend tracking sources",
+      "strength": "primary"
+    },
+    {
+      "claim": "Valuation: trading at ~13x P/E vs. peer average 45-55x; cash-adjusted core business at ~10x earnings; Goldman Sachs price target NT$3,549 (current ~NT$2,600); stock 55-60% below 2020 peak despite record revenue",
+      "source": "Investing.com citing Goldman Sachs; Alpha Spread; JPMorgan PT NT$3,150; Simply Wall St P/E data",
+      "strength": "primary"
+    },
+    {
+      "claim": "Manufacturing moat: sub-200nm surface accuracy tolerances, 2,700+ patents, 35-year tacit process knowledge, NT$13B+ (>$400M) annual capex 2025 — no competitor has demonstrated equivalent yield at 8P+/variable aperture spec at volume scale",
+      "source": "BALD Engineering blog April 2024; 9to5Mac; industry technical analysis; Digitimes capacity reports",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Sunny Optical demonstrates yield parity on variable aperture lenses for iPhone 18 Pro at scale — if Sunny captures 40-50% primary allocation and executes successfully, the premium-spec moat begins to narrow meaningfully beyond the 7P tier",
+    "Variable aperture yield issues persist into Q1 2027 — Largan's own disclosures cite yield improvement as a 2026 goal; if H2 2026 production ramp is slower than expected, iPhone 18 Pro camera volumes at risk",
+    "Computational photography reduces optical hardware intensity — Apple's investment in AI image processing (ProRes video, computational zoom) could reduce the number of discrete cameras or lens elements required per device in iPhone 19+ cycles",
+    "Robot vision shipments delayed again beyond 2026 — first delay was 2025→2026; second delay would signal customer qualification problems or market timing mismatch, not just schedule slip",
+    "Taiwan geopolitical escalation — manufacturing concentration in Taichung creates catastrophic single-point risk; no meaningful offshore diversification in place; 2 of 6 factories are in China, creating dual-jurisdiction exposure",
+    "CPO/FAU mass production slips to 2028-2029 — TSMC/AMD sampling is real but mass production timeline is management guidance, not contracted; AI infrastructure procurement cycles are unpredictable"
+  ]
+}

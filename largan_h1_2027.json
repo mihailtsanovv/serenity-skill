@@ -1,0 +1,60 @@
+{
+  "ticker": "3008",
+  "company": "Largan Precision Co., Ltd.",
+  "market": "Taiwan (TWSE: 3008)",
+  "period": "H1 2027",
+  "factors": {
+    "demand_inflection": 4.0,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 4.0,
+    "supplier_concentration": 3.5,
+    "expansion_difficulty": 4.5,
+    "evidence_quality": 5.0,
+    "valuation_disconnect": 3.5,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 0.0,
+    "governance": 1.0,
+    "geopolitics": 2.5,
+    "liquidity": 0.0,
+    "hype_risk": 1.5,
+    "accounting_quality": 0.0,
+    "cyclicality": 2.0,
+    "alternative_design_risk": 2.0
+  },
+  "evidence": [
+    {
+      "claim": "Variable aperture lens for iPhone 18 Pro: 50% higher cost than fixed aperture equivalent; Largan H2 2026 at full capacity; yield improvement target achieved — gross margin recovery toward 55% begins",
+      "source": "Derived from Mactrast May 2026 (50% cost premium); Digitimes April 2026 (full capacity H2 2026); Goldman Sachs 56.6% GM target by 2028",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Humanoid robot vision revenues begin — multiple overseas customers; 20-60 lenses per robot unit; structural new revenue stream growing from 2026 baseline",
+      "source": "Derived from Digitimes October 2025 (mass production confirmed, deliveries 2026); CEO Adam Lin June 2025 investor conference",
+      "strength": "analysis"
+    },
+    {
+      "claim": "CPO/FAU commercial sampling converts to first small-volume orders — TSMC/AMD project validation window closes H2 2026 or H1 2027; Largan PhotoniCore Technologies first revenue",
+      "source": "Derived from TrendForce January 2026 (sampling in testing); Largan management 'mass production 2027-2028' timeline",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Apple 20th Anniversary iPhone (2027) planning underway — Goldman Sachs cites this as a major per-unit lens content driver; form-factor evolution (foldable, slim, MR) increases optical complexity per device",
+      "source": "Goldman Sachs Largan research note cited in Investing.com; Bloomberg Apple product roadmap reporting",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Largan remains structurally irreplaceable at 8P+/periscope/variable aperture specification tier — Sunny Optical has not demonstrated equivalent yield at these specs at volume; GSEO remains secondary; 2,700+ patents provide legal moat",
+      "source": "Ongoing competitive analysis; Ming-Chi Kuo analyst notes; Digitimes supply chain tracking",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Sunny Optical variable aperture execution in iPhone 18 cycle exceeds expectations — if Sunny delivers at 40-50% allocation with strong yield, Apple increases Sunny's share further for iPhone 19 and Largan's premium-spec moat cracks at its final frontier",
+    "Apple smart glasses launch delayed past 2027 — Bloomberg's late-2026 production start / early-2027 launch timeline slips; Largan loses the CPO + smart glasses dual catalyst timing that underpins the H1 2027 investment case",
+    "Robot vision market slower than China's humanoid commercialization timeline implies — if mass deployment stays at tens of thousands of units rather than millions through 2027, revenue contribution remains immaterial",
+    "Gross margin structurally stuck below 50% — if variable aperture yields remain challenging and mid-range lens pricing pressure continues from Chinese competitors, the Goldman Sachs 56.6% by 2028 target proves too optimistic",
+    "Taiwan Strait military escalation — manufacturing concentration risk materializes; insurance, customer qualification re-sourcing, and supply chain disruption all occur simultaneously"
+  ]
+}
