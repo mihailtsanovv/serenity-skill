@@ -6,11 +6,11 @@
   "factors": {
     "demand_inflection": 5.0,
     "architecture_coupling": 4.5,
-    "chokepoint_severity": 5.0,
-    "supplier_concentration": 5.0,
+    "chokepoint_severity": 4.5,
+    "supplier_concentration": 4.5,
     "expansion_difficulty": 5.0,
-    "evidence_quality": 4.5,
-    "valuation_disconnect": 2.0,
+    "evidence_quality": 5.0,
+    "valuation_disconnect": 2.5,
     "catalyst_timing": 4.0
   },
   "penalties": {
@@ -21,40 +21,40 @@
     "hype_risk": 3.5,
     "accounting_quality": 0.5,
     "cyclicality": 2.5,
-    "alternative_design_risk": 3.5
+    "alternative_design_risk": 4.0
   },
   "evidence": [
     {
-      "claim": "~60% global harmonic (strain wave) reducer market share; harmonic reducers are the dominant joint transmission in humanoid robots requiring zero-backlash, high-ratio torque multiplication in compact form — 15-25 units per humanoid robot",
-      "source": "Industry analysis; Harmonic Drive Systems investor materials; multiple robotics supply chain reports",
+      "claim": "~60% global harmonic-specific reducer market share (dominant in harmonic segment); harmonic reducers are standard in upper-body joints (shoulders, elbows, wrists) across Tesla Optimus, Figure 01/02, Apptronik Apollo; FY2026 humanoid orders ~¥2.5B (+from ¥1.3B in Q2 alone); management guided 'could double or triple in FY3/27' from North American clients; stock +8.2% on FY2026 earnings day",
+      "source": "Harmonic Drive Systems FY2026 consolidated results (BigGo Finance / JPX TDNet); Investing.com FY2026 humanoid orders; Harmonic Drive investor materials",
       "strength": "primary"
     },
     {
-      "claim": "Lead times extended to 20-30 weeks for harmonic reducers as of late 2024; company guided for capacity expansion driven by humanoid robot demand in 2024-2025 earnings commentary",
-      "source": "Harmonic Drive Systems earnings calls 2024-2025; supply chain channel checks",
+      "claim": "VERIFIED: Unitree G1 (world #1 humanoid OEM by units, ~5,500 shipped 2025) does NOT use harmonic reducers — uses quasi-direct-drive (QDD) single-stage planetary gearboxes with hollow-shaft PMSM motors; current sensing alone replaces dedicated torque sensors; confirmed across multiple technical documentation sources",
+      "source": "Unitree G1 QDD actuator documentation (Unitree/ArcsecondRobo); Unitree G1 EDU technical specifications (RoboStore); arXiv 2506.16356 comparison of QDD vs harmonic-drive robots",
       "strength": "primary"
     },
     {
-      "claim": "Manufacturing barrier: flex spline (thin-walled steel cup flexing cyclically under load) requires metallurgy and heat treatment at sub-micron tolerances; 10-15 year learning curve; Chinese alternatives (Leaderdrive) are 20-40% less precise with shorter fatigue life",
-      "source": "Technical analysis; industry comparison reports; Chinese domestic reducer qualification data",
+      "claim": "VERIFIED: Suzhou Green Harmonic Drive Technology Co., Ltd. (listed STAR Market Aug 2020, not Leaderdrive) is Tesla Optimus's PRIMARY Chinese harmonic reducer supplier; targeting 60% of Optimus supply with 500,000 unit/year factory opening 2026; priced 30-40% below Harmonic Drive Japan; 14 reducers per Optimus robot",
+      "source": "Optimusk.blog Tesla Optimus supplier chain; Suzhou Green Harmonic (Baidu Encyclopedia verified listing); Yicaiglobal.com three core supply chains of humanoid robots",
+      "strength": "primary"
+    },
+    {
+      "claim": "Manufacturing barrier verified: flexspline requires high-performance alloys (18Cr2Ni4WA, 35NCD16), sub-0.5mm tolerances through heat treatment that can exceed total tolerance budgets; fine particle peening to 470 MPa residual compressive stress and 0.5μm surface roughness is the step extending fatigue life from 3,000 to 10,000+ hours; Chinese Tier-1 producers at 70-85% of Japanese benchmark for torque-density and fatigue life; scrap rates not publicly disclosed but flexspline fracture is documented as Chinese producers' primary quality challenge",
+      "source": "ScienceDirect fine particle peening study; De Gruyter thermal-mechanical coupling analysis; ZHY Gear manufacturing review; arXiv 2506.16356",
       "strength": "analysis"
     },
     {
-      "claim": "Stock tripled 2022-2024 on humanoid demand expectations; Harmonic Drive Systems is the single most-cited supply chain bottleneck in humanoid robot BOM analysis across Morgan Stanley, Goldman Sachs, and Citi robotics reports",
-      "source": "Market data; Morgan Stanley Humanoid 100 report; Goldman Sachs humanoid supply chain analysis",
+      "claim": "Financial trajectory: FY2025 gross margin 26.7% (cyclical trough from utilization compression + capacity build); FY2026 gross margin recovered to 30.4% despite operating profit collapse of 94.4% YoY (caused by operating expense inflation, not gross margin); FY2027 guidance: ¥68B revenue (+14.2%), ¥6.2B operating profit (+141.5%), ~9.1% operating margin; 3-year roadmap target ¥90B revenue / ¥15B operating profit",
+      "source": "Harmonic Drive Systems FY2026 results (Quartr, TipRanks, Finbox); FY2027 guidance (TipRanks)",
       "strength": "primary"
-    },
-    {
-      "claim": "Cost per robot: $4,000-$16,000 in harmonic reducers alone (at $200-$800/unit × 20-25 joints) = 15-30% of total robot BOM; no viable substitute achieves equivalent backlash/precision/compactness",
-      "source": "BOM analysis; industry cost breakdowns; Tesla Optimus teardown estimates",
-      "strength": "analysis"
     }
   ],
   "what_could_weaken_view": [
-    "Direct-drive architecture adoption: if humanoid OEMs shift to high-torque direct-drive motors (no reducer at each joint), Harmonic Drive's humanoid demand collapses — Tesla Optimus currently uses both but architecture is not settled",
-    "Chinese domestic substitution: Leaderdrive (688017.SH) closes the spec gap on fatigue life and precision by 2027 — Chinese humanoid OEMs (Unitree, UBTech, AgiBot) source domestically, removing the largest demand growth vector",
-    "Valuation already re-rated: stock tripled on humanoid expectations; if humanoid production ramps slower than expected (units stay in thousands not hundreds of thousands through 2027), the stock de-rates before fundamentals catch up",
-    "Industrial robot demand cyclicality: Harmonic Drive's base business (FANUC, Yaskawa automation) is subject to manufacturing capex cycles; a global manufacturing slowdown compresses the base even as humanoid demand grows",
-    "New transmission technology: cycloidal drives, cable-driven actuators, or quasi-direct-drive approaches achieving competitive performance at lower cost — HEBI Robotics and others working on cable-driven alternatives"
+    "QDD architecture already won at world's largest humanoid OEM: Unitree G1 (world #1 by units, ~5,500 shipped 2025) confirmed using QDD planetary, zero harmonic reducers — if AgiBot, Figure AI, or a next-gen Tesla Optimus adopts QDD for primary joints, the TAM assumption (15-25 reducers per robot) collapses to 0-8 per robot",
+    "Suzhou Green Harmonic (Chinese competitor) targeting 60% of Tesla Optimus supply: if the 500K unit/year factory achieves spec yield in H2 2026, Harmonic Drive Japan loses the world's highest-volume humanoid program to a Chinese supplier at 30-40% lower ASP — this is the single most important bear case trigger",
+    "Chinese domestic substitution: Leaderdrive (688017.SH) and Zhejiang Laifual at ±15 arcsec precision, >10,000hr service life; full fatigue-life spec parity for humanoid-grade (moderate duty cycle) applications estimated by 2027-2028; price 40-60% below Japanese equivalents; Harmonic Drive Japan gross margin fell from >36% to 26.7% over two years before partial recovery",
+    "Valuation already re-rated: stock tripled 2022-2024 on humanoid expectations; FY2027 humanoid order doubling/tripling is priced into the current stock; any slippage in humanoid production ramp (units stay in tens of thousands not hundreds of thousands through 2027) causes de-rating before fundamentals catch up",
+    "Operating expense structure is the new risk: FY2026 showed that even with gross margin recovering (30.4%), operating profit can collapse 94% — if capacity expansion fixed costs remain elevated while humanoid ramp disappoints, the P&L amplifies downside"
   ]
 }
