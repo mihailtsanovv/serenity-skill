@@ -1,0 +1,60 @@
+{
+  "ticker": "RSW.L",
+  "company": "Renishaw plc",
+  "market": "UK (LSE: RSW)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 3.5,
+    "architecture_coupling": 3.5,
+    "chokepoint_severity": 3.0,
+    "supplier_concentration": 3.0,
+    "expansion_difficulty": 3.5,
+    "evidence_quality": 4.0,
+    "valuation_disconnect": 3.5,
+    "catalyst_timing": 3.0
+  },
+  "penalties": {
+    "dilution_financing": 0.0,
+    "governance": 1.0,
+    "geopolitics": 1.0,
+    "liquidity": 1.5,
+    "hype_risk": 1.5,
+    "accounting_quality": 0.5,
+    "cyclicality": 2.0,
+    "alternative_design_risk": 2.5
+  },
+  "evidence": [
+    {
+      "claim": "Renishaw FY2025 (year-end June 30, 2025): record revenue of £713.0M (+3.1% YoY), adjusted PBT £127.2M (+3.8%); gross margin ex-engineering costs 61.7% (improved); laser encoders were best-performing product line FY2025; management cited 'good revenue growth from position encoders' within Manufacturing Technologies; robotics and industrial automation explicitly cited as demand driver",
+      "source": "Renishaw FY2025 full-year results presentation; DirectorsTalkInterviews FY2025 coverage",
+      "strength": "primary"
+    },
+    {
+      "claim": "ASTRiA inductive rotary absolute encoder launched FY2025: total system accuracy ±40 arc seconds, 23-bit resolution at Ø100mm; multi-track inductive scanning (no line-of-sight), immune to dirt/oil/contamination, survives 30g shock, no calibration required, self-centring rotor, up to 9,000 rpm; target applications: gimbals, robots, servo motors, UAVs, medical devices, defense; direct competitor to Heidenhain ECI/EQI inductive line; squarely aimed at humanoid robot joint segment",
+      "source": "Renishaw ASTRiA product page; Renishaw FY2025 results commentary",
+      "strength": "primary"
+    },
+    {
+      "claim": "PAL Robotics REEM-C humanoid documented use of RLS/Renishaw AksIM-2 (off-axis absolute, hollow bore) and Orbis (compact rotary) magnetic encoders in knee, wrist, and elbow joints; 14-20 crossed roller bearings per humanoid → 30-50 encoders per robot at $90-200/unit = ~$6,000 encoder cost per robot; absolute encoders mandatory (safety-critical absolute position on power-up without dangerous homing move)",
+      "source": "Renishaw/RLS case study — PAL Robotics REEM-C; RLS Humanoid Robots applications page; TheRobotReport PAL Robotics integration article",
+      "strength": "primary"
+    },
+    {
+      "claim": "China's CT-Unite launched first GaN-based encoder chip (CT-21X) for humanoid robot joints in May 2026: ±0.1° angular error, <2μs latency, 1-5 MHz bandwidth, 300,000 rpm, 40-50% smaller than conventional solutions; mass production expected Q3 2026; represents direct Chinese substitute for Broadcom AEAT encoder ICs at the chip level; reduces Chinese humanoid OEM dependency on Western encoder IC supply chains",
+      "source": "New Electronics CT-Unite article; TrendForce May 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Encoder market not currently supply-constrained: at 2025 production volumes (thousands of humanoid units globally), encoder demand is far below levels stressing supply chains; multiple qualified Western suppliers (Renishaw/RLS, Heidenhain, Broadcom AEAT-based assemblies, Chinese alternatives); the real bottleneck is system-level calibration and qualification throughput, not raw component supply; binding supply constraint estimated only at 100,000-1,000,000 units/year scale",
+      "source": "Serenity supply chain analysis; DataInsightsMarket Humanoid Robot Encoder Market report",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Encoder layer is not a hard bottleneck: multiple qualified suppliers (Renishaw/RLS, Heidenhain, Broadcom AEAT-based assemblies) mean no single company can extract monopoly pricing; the scarcity is in calibration/qualification throughput, not Renishaw's product specifically",
+    "Chinese domestic encoder chip development removes Chinese humanoid OEM dependency: CT-Unite's GaN encoder chip (mass production Q3 2026) means the fastest-growing humanoid market (90% of 2025 global units) sources domestically; Renishaw's growth is concentrated in Western humanoid OEMs (Tesla, Figure, Agility, Boston Dynamics) which are a smaller fraction of unit volume",
+    "Renishaw family concentration governance risk: founders retained significant voting control; succession/strategic decisions may not prioritize external shareholder returns; UK mid-cap status limits index inclusion and institutional coverage relative to global peers",
+    "Cyclicality from semiconductor capital equipment: laser encoders (best-performing FY2025 product) are exposed to semiconductor wafer-handling equipment capex cycles; a semiconductor capex downturn compresses the highest-margin encoder segment",
+    "ASTRiA competitive response from Heidenhain: Heidenhain has the ECI/EQI inductive line presented at AUTOMATICA 2025 with same contamination-immunity positioning; Renishaw's ASTRiA is not differentiated against the strongest competitor in the inductive robot encoder segment"
+  ]
+}

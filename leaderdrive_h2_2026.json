@@ -1,0 +1,60 @@
+{
+  "ticker": "688017.SH",
+  "company": "Zhongda Leader Drive Co., Ltd. (Leaderdrive)",
+  "market": "China (Shanghai STAR Market: 688017)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 4.5,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 4.0,
+    "supplier_concentration": 3.5,
+    "expansion_difficulty": 3.5,
+    "evidence_quality": 4.5,
+    "valuation_disconnect": 2.0,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 1.0,
+    "governance": 2.5,
+    "geopolitics": 3.5,
+    "liquidity": 2.0,
+    "hype_risk": 3.5,
+    "accounting_quality": 2.5,
+    "cyclicality": 1.5,
+    "alternative_design_risk": 2.5
+  },
+  "evidence": [
+    {
+      "claim": "JP Morgan estimates Leaderdrive holds 30-40% of China's harmonic reducer market (2024-2025 data); Chinese domestic brands collectively >35% of units installed in Chinese-assembled robots; Harmonic Drive Systems Japan's China market share declining materially; Leaderdrive FY2025 revenue CNY 570.7M (+47% YoY), net profit CNY 124.4M (more than doubled YoY); market cap CNY 58.85B (~USD 8.67B)",
+      "source": "JP Morgan China robotics supply chain report; Leaderdrive FY2025 financials; Yahoo Finance 688017.SS",
+      "strength": "primary"
+    },
+    {
+      "claim": "Leaderdrive confirmed supply chain entry at Tesla Optimus, UBTech, AgiBot, and Unitree; Unitree prospectus filing (March 2026 STAR Market IPO application) names Leaderdrive as key joint component supplier; qualified as Tier-1 supplier to Figure AI (US) — cross-border supply chain entry is the critical 2025 development for the Chinese substitution bear case on Harmonic Drive Japan",
+      "source": "Unitree STAR Market IPO prospectus (March 2026); TechCrunch China humanoid supply chain; Longbridge teardown analysis",
+      "strength": "primary"
+    },
+    {
+      "claim": "Harmonic Drive Systems Japan (6324.T) gross margin declined from 36.1% to 26.7% over 2023-2025; operating margin at 8.99% (multi-year low); Leaderdrive's implied gross margin is 40-45% at unit level (Unitree G1 teardown) — Chinese substitute is already at higher margin than the Japanese incumbent while priced 40-60% lower",
+      "source": "Harmonic Drive Systems 6324.T financials (MarketScreener); Unitree G1 teardown analysis (Longbridge/Jianshi); CompaniesMarketCap operating margin data",
+      "strength": "primary"
+    },
+    {
+      "claim": "Technical capability vs. Harmonic Drive Systems: backlash/positioning precision at arc-minute class (spec parity for standard-duty industrial and humanoid applications); products priced 40-60% below Japanese equivalents; remaining gap: torque-density stress tests and long-term lifespan at ~70-85% of Japanese benchmark; Japan still holds >70% of core harmonic drive patents; scrap rates at Chinese producers elevated (15-20% flexspline scrap); full lifespan spec parity for humanoid-grade applications estimated 2027-2028",
+      "source": "Industry technical comparison; GlobalInfoResearch 2024; Chinese reducer qualification data",
+      "strength": "analysis"
+    },
+    {
+      "claim": "China shipped ~90% of global humanoid units in 2025; AgiBot ~5,168 units, Unitree ~4,200-5,500 units, UBTech 1,079 units; TrendForce projects China domestic output +94% in 2026; China government commits USD 26B+ in humanoid investment funds; 15th Five-Year Plan (2026-2030) elevates embodied intelligence as top-10 priority; government buyer rebates of ~10% per robot accelerate commercial deployments",
+      "source": "TrendForce 2025 humanoid shipment data; TechCrunch February 2026; The Diplomat China Five-Year Plan; Jamestown MIIT action plan",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Valuation is extreme: CNY 58.85B market cap on CNY 570.7M revenue = 103x revenue; stock price already prices in substantial humanoid market share expansion — very limited margin of safety for a foreign investor buying at current levels",
+    "Geopolitical access risk for non-Chinese investors: US export controls, CFIUS considerations, and potential Chinese government restrictions on foreign ownership of strategic robotics technology suppliers limit the investable universe; accessing 688017.SH from outside China requires qualified foreign investor programs with trading frictions",
+    "IP litigation exposure: Japan holds >70% of core harmonic drive patents; as Leaderdrive scales into Western markets (Figure AI US supply), patent enforcement risk rises significantly; a successful patent injunction in a key market would be material",
+    "Harmonic Drive Japan's remaining advantages compound over time: 10+ years of field data advantage in heavy industrial robots; if fatigue life gap closes slower than 2027-2028 estimate, the Chinese humanoid market share gain is delayed",
+    "Direct-drive architecture threat affects both Leaderdrive and Harmonic Drive: if humanoid OEMs shift to high-torque-density direct-drive motors eliminating gearboxes at most joints, the entire reducer market (Chinese and Japanese) loses addressable market"
+  ]
+}
