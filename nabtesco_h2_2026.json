@@ -1,0 +1,54 @@
+{
+  "ticker": "6268.T",
+  "company": "Nabtesco Corporation",
+  "market": "Japan (TSE: 6268)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 4.5,
+    "architecture_coupling": 4.0,
+    "chokepoint_severity": 4.5,
+    "supplier_concentration": 4.5,
+    "expansion_difficulty": 4.5,
+    "evidence_quality": 4.0,
+    "valuation_disconnect": 3.0,
+    "catalyst_timing": 3.5
+  },
+  "penalties": {
+    "dilution_financing": 0.0,
+    "governance": 1.0,
+    "geopolitics": 2.0,
+    "liquidity": 1.0,
+    "hype_risk": 2.0,
+    "accounting_quality": 0.5,
+    "cyclicality": 3.0,
+    "alternative_design_risk": 3.0
+  },
+  "evidence": [
+    {
+      "claim": "~60% global RV (rotate vector) cycloidal reducer market share; dominant supplier to FANUC, Yaskawa, ABB, Kawasaki industrial robots; humanoid robots adopting RV reducers for heavier joints (hip, waist) requiring higher torque density than harmonic",
+      "source": "Industry analysis; Nabtesco investor materials; industrial robot supply chain reports",
+      "strength": "primary"
+    },
+    {
+      "claim": "Nabtesco revenue ¥150-170B; robot component division (Precision Reduction Gear) is largest segment; company noted humanoid robots as emerging demand driver in 2024 investor communications",
+      "source": "Nabtesco annual reports 2023-2024; earnings calls",
+      "strength": "primary"
+    },
+    {
+      "claim": "RV reducer manufacturing requires precision cycloidal disc production with gear form errors below 3 microns; only Japan and limited European capability at this tolerance; Chinese domestic alternatives (Leader Harmonious) present but 10-15% lower performance",
+      "source": "Technical analysis; precision gear manufacturing industry reports",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Nabtesco has larger revenue base than Harmonic Drive Systems (¥150B vs ¥30-35B) providing more financial resilience for capacity expansion; also supplies aerospace, rail, and construction equipment reducing pure robotics cyclicality",
+      "source": "Nabtesco annual reports; segment revenue data",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Humanoid architecture preference for harmonic over RV: harmonic reducers are lighter and more compact for the same torque ratio — if humanoid OEMs standardize on harmonic for most joints, Nabtesco's humanoid exposure is smaller than Harmonic Drive Systems",
+    "Industrial robot demand downcycle: Nabtesco's base business in conventional industrial robots is highly cyclical with auto/electronics capex; a manufacturing downturn compresses revenue even as humanoid demand grows slowly",
+    "Chinese domestic substitution: Chinese RV reducer makers have progressed further than in harmonic reducers; Nabtesco's moat at the mid-precision tier is narrower",
+    "Diversification dilutes bottleneck purity: Nabtesco's aerospace, rail, and construction equipment exposure makes it a conglomerate story, not a pure humanoid bottleneck play"
+  ]
+}

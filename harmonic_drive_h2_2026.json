@@ -1,0 +1,60 @@
+{
+  "ticker": "6324.T",
+  "company": "Harmonic Drive Systems Inc.",
+  "market": "Japan (TSE: 6324)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 5.0,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 5.0,
+    "supplier_concentration": 5.0,
+    "expansion_difficulty": 5.0,
+    "evidence_quality": 4.5,
+    "valuation_disconnect": 2.0,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 0.0,
+    "governance": 1.0,
+    "geopolitics": 2.0,
+    "liquidity": 1.0,
+    "hype_risk": 3.5,
+    "accounting_quality": 0.5,
+    "cyclicality": 2.5,
+    "alternative_design_risk": 3.5
+  },
+  "evidence": [
+    {
+      "claim": "~60% global harmonic (strain wave) reducer market share; harmonic reducers are the dominant joint transmission in humanoid robots requiring zero-backlash, high-ratio torque multiplication in compact form — 15-25 units per humanoid robot",
+      "source": "Industry analysis; Harmonic Drive Systems investor materials; multiple robotics supply chain reports",
+      "strength": "primary"
+    },
+    {
+      "claim": "Lead times extended to 20-30 weeks for harmonic reducers as of late 2024; company guided for capacity expansion driven by humanoid robot demand in 2024-2025 earnings commentary",
+      "source": "Harmonic Drive Systems earnings calls 2024-2025; supply chain channel checks",
+      "strength": "primary"
+    },
+    {
+      "claim": "Manufacturing barrier: flex spline (thin-walled steel cup flexing cyclically under load) requires metallurgy and heat treatment at sub-micron tolerances; 10-15 year learning curve; Chinese alternatives (Leaderdrive) are 20-40% less precise with shorter fatigue life",
+      "source": "Technical analysis; industry comparison reports; Chinese domestic reducer qualification data",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Stock tripled 2022-2024 on humanoid demand expectations; Harmonic Drive Systems is the single most-cited supply chain bottleneck in humanoid robot BOM analysis across Morgan Stanley, Goldman Sachs, and Citi robotics reports",
+      "source": "Market data; Morgan Stanley Humanoid 100 report; Goldman Sachs humanoid supply chain analysis",
+      "strength": "primary"
+    },
+    {
+      "claim": "Cost per robot: $4,000-$16,000 in harmonic reducers alone (at $200-$800/unit × 20-25 joints) = 15-30% of total robot BOM; no viable substitute achieves equivalent backlash/precision/compactness",
+      "source": "BOM analysis; industry cost breakdowns; Tesla Optimus teardown estimates",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Direct-drive architecture adoption: if humanoid OEMs shift to high-torque direct-drive motors (no reducer at each joint), Harmonic Drive's humanoid demand collapses — Tesla Optimus currently uses both but architecture is not settled",
+    "Chinese domestic substitution: Leaderdrive (688017.SH) closes the spec gap on fatigue life and precision by 2027 — Chinese humanoid OEMs (Unitree, UBTech, AgiBot) source domestically, removing the largest demand growth vector",
+    "Valuation already re-rated: stock tripled on humanoid expectations; if humanoid production ramps slower than expected (units stay in thousands not hundreds of thousands through 2027), the stock de-rates before fundamentals catch up",
+    "Industrial robot demand cyclicality: Harmonic Drive's base business (FANUC, Yaskawa automation) is subject to manufacturing capex cycles; a global manufacturing slowdown compresses the base even as humanoid demand grows",
+    "New transmission technology: cycloidal drives, cable-driven actuators, or quasi-direct-drive approaches achieving competitive performance at lower cost — HEBI Robotics and others working on cable-driven alternatives"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "ticker": "6481.T",
+  "company": "THK Co., Ltd.",
+  "market": "Japan (TSE: 6481)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 4.5,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 4.0,
+    "supplier_concentration": 4.0,
+    "expansion_difficulty": 4.0,
+    "evidence_quality": 4.0,
+    "valuation_disconnect": 3.0,
+    "catalyst_timing": 3.5
+  },
+  "penalties": {
+    "dilution_financing": 0.0,
+    "governance": 1.0,
+    "geopolitics": 2.0,
+    "liquidity": 1.0,
+    "hype_risk": 2.0,
+    "accounting_quality": 0.5,
+    "cyclicality": 3.0,
+    "alternative_design_risk": 2.0
+  },
+  "evidence": [
+    {
+      "claim": "World's largest crossed roller bearing and linear motion guide maker; THK-branded crossed roller bearings are in virtually every precision robot joint; also produces ball screws and planetary roller screws used in humanoid linear actuators",
+      "source": "THK investor materials; linear motion component market share data",
+      "strength": "primary"
+    },
+    {
+      "claim": "THK explicitly named humanoid robots as a significant growth driver in 2024 investor presentations; company noted strong order intake from humanoid robot OEMs in Japan and US",
+      "source": "THK 2024 investor day materials; earnings call commentary",
+      "strength": "primary"
+    },
+    {
+      "claim": "Crossed roller bearing manufacturing requires precision grinding of rollers and races to sub-micron tolerances with alternating 90-degree orientation; THK + IKO together control ~60-70% of the global market; 35+ year manufacturing lead on Chinese entrants",
+      "source": "Industry market share analysis; precision bearing manufacturing assessment",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Multi-layer exposure: every humanoid joint needs bearings (30-50 per robot); THK also supplies linear motion guides for robot arms and planetary roller screws for linear actuators in legs — 3-4 distinct humanoid component categories",
+      "source": "Robotics supply chain BOM analysis; THK product catalog cross-reference",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Schaeffler and NSK gain humanoid share: both have comparable technical capability and are actively targeting robotics; THK's dominance is real but not as extreme as Harmonic Drive's in reducers",
+    "Industrial automation downcycle: THK's base business in machine tools and semiconductor equipment is highly cyclical; a global capex downturn compresses base revenue",
+    "Chinese bearing makers close the gap faster than expected at the precision tier: NSK's Chinese operations and Schaeffler's Chinese factories already produce some precision bearings domestically",
+    "Revenue per robot is lower than reducers: bearings are a smaller BOM fraction than reducers; the financial leverage to humanoid unit growth is real but more modest"
+  ]
+}
