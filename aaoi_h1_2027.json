@@ -1,0 +1,60 @@
+{
+  "ticker": "AAOI",
+  "company": "Applied Optoelectronics Inc.",
+  "market": "US (Nasdaq: AAOI) — manufacturing facilities in Sugar Land TX and Taipei Taiwan",
+  "period": "H1 2027",
+  "factors": {
+    "demand_inflection": 5.0,
+    "architecture_coupling": 5.0,
+    "chokepoint_severity": 4.0,
+    "supplier_concentration": 4.5,
+    "expansion_difficulty": 4.5,
+    "evidence_quality": 5.0,
+    "valuation_disconnect": 2.5,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 3.0,
+    "governance": 1.0,
+    "geopolitics": 2.5,
+    "liquidity": 1.0,
+    "hype_risk": 2.5,
+    "accounting_quality": 2.0,
+    "cyclicality": 2.5,
+    "alternative_design_risk": 2.5
+  },
+  "evidence": [
+    {
+      "claim": "Texas fab expansion operational: Sugar Land 210,000 sq ft + Pearland buildings enabling 650,000 units/month 800G+1.6T capacity; 30%+ manufactured in Texas by end 2026 — domestic US capacity for trusted-supplier procurement mandates",
+      "source": "Derived from GlobeNewswire February 13, 2026 (groundbreaking); Q1 2026 earnings capacity guidance",
+      "strength": "analysis"
+    },
+    {
+      "claim": "CPO pump laser volume production: 400mW BH DFB laser for silicon photonics sampling late 2026; volume production H1 2027; positions AAOI in CPO architecture at two layers (transceiver module + laser source for external silicon photonics)",
+      "source": "Derived from GlobeNewswire December 18, 2025 (product introduction); Q1 2026 earnings call timeline",
+      "strength": "analysis"
+    },
+    {
+      "claim": "1.6T becomes volume product: Q3 2026 shipments begin from March 2026 order; H1 2027 represents first full half-year of 1.6T revenue; next-generation AI cluster connectivity standard requires 1.6T modules at scale",
+      "source": "Derived from GlobeNewswire March 9, 2026 (order confirmation with Q3 2026 start); industry 1.6T adoption timeline",
+      "strength": "primary"
+    },
+    {
+      "claim": "Oracle qualification completion: Rosenblatt analyst cited Oracle as 'imminent qualification target' in May 2026; if successful, adds a third major hyperscale direct customer alongside Microsoft and Amazon, reducing customer concentration risk",
+      "source": "Rosenblatt analyst note cited in Yahoo Finance, May 2026",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Full-year 2026 guidance >$1.1B revenue; CEO states actual demand $1.4-1.5B; implied 2027 trajectory toward $1.5-2.0B if capacity ramp succeeds and CATV/data center mix improves further toward data center",
+      "source": "AAOI Q1 2026 earnings call, BigGo Finance May 7, 2026",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Texas fab execution failure: InP epitaxy at 650,000 units/month is unprecedented scale; defect density, yield management, and process qualification on new buildings with new equipment simultaneously could delay capacity ramp 6-12 months",
+    "CATV market structural decline: if North American cable operators reduce DOCSIS 4.0 capex (rate sensitivity, streaming competition), Digicomm channel revenue falls — compressed overall revenue growth masks or reverses data center gains",
+    "Silicon photonics CPO with quantum dot lasers displaces AAOI in the next architecture: if QD laser technology matures faster than expected (see Sivers/ALRIB thesis), the InP CW DFB laser for CPO becomes commoditized or replaced before AAOI achieves meaningful CPO revenue",
+    "GAAP profitability remains elusive despite >$1B revenue — if operating leverage does not emerge at scale (gross margins don't expand beyond 30-32%), the equity narrative shifts from growth to distressed; additional dilutive raises follow",
+    "Chinese transceiver makers receive tariff exemption or partner with US entities: InnoLight and HG Genuine have scale advantages; any route to direct US hyperscaler access would compress AAOI's pricing power"
+  ]
+}

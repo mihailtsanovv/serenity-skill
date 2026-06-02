@@ -1,0 +1,61 @@
+{
+  "ticker": "REKR",
+  "company": "Rekor Systems Inc.",
+  "market": "US (Nasdaq: REKR)",
+  "period": "H1 2027",
+  "factors": {
+    "demand_inflection": 4.0,
+    "architecture_coupling": 3.5,
+    "chokepoint_severity": 3.0,
+    "supplier_concentration": 2.5,
+    "expansion_difficulty": 3.5,
+    "evidence_quality": 4.5,
+    "valuation_disconnect": 3.0,
+    "catalyst_timing": 3.5
+  },
+  "penalties": {
+    "dilution_financing": 3.5,
+    "governance": 2.5,
+    "geopolitics": 1.5,
+    "liquidity": 2.5,
+    "hype_risk": 2.0,
+    "accounting_quality": 2.5,
+    "cyclicality": 1.5,
+    "alternative_design_risk": 3.0
+  },
+  "evidence": [
+    {
+      "claim": "Georgia DaaS contract ramping through H2 2026 — $50M minimum over 7 years implies ~$7M/year base; cooperative purchasing provisions could expand scope; statewide sensor deployment underway",
+      "source": "Derived from October 2025 contract; deployment timeline and ramp trajectory forward",
+      "strength": "primary"
+    },
+    {
+      "claim": "FHWA compliance certification creates regulatory moat that grows as DOTs commit to multi-year DaaS contracts — manual traffic count replacement is structural (aging inductive loop infrastructure, labor cost inflation); ATD acquisition adds 20-year legacy data and 14-state DOT relationships",
+      "source": "Rekor IR; ATD acquisition announcement (ITS International, January 2024)",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Texas DOT / Caltrans conversion decision expected 2026-2027 — if either state upgrades from pilot to statewide DaaS commitment comparable to Georgia, contracted backlog could reach $150M+",
+      "source": "Derived from October 2025 early deployment announcements; TxDOT blanket PO June 2025",
+      "strength": "analysis"
+    },
+    {
+      "claim": "Remaining performance obligations $25.9M at year-end 2025 (up 80% YoY) — contracted future revenue building ahead of recognition; Georgia and Oklahoma renewals the primary driver",
+      "source": "Rekor Systems 10-K FY2025 (SEC), March 31, 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "EBITDA breakeven target: management guiding late Q2 or Q3 2026; Q3 2025 demonstrated $1.5M EBITDA loss at $14.2M revenue is achievable; 16% headcount reduction reduces fixed cost base",
+      "source": "Rekor Systems Q3 2025 earnings guidance; restructuring press release March 2025",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Financing in H2 2026 is dilutive at distressed price — if Rekor raises capital at $0.79-$1.00 per share, shares outstanding could exceed 180-200M; per-share value destruction offsets operational improvement",
+    "13.25% Revenue Sharing Notes due December 2026 — high-rate debt coming due; refinancing or conversion to equity at current price levels would be punitive",
+    "Texas and California conversion does not occur in 2026-2027 — if both states run multi-year pilots before statewide commitment, Rekor's growth rate remains sub-20% and EBITDA breakeven target slips",
+    "Permanent CEO not hired or new CEO changes strategic direction — founder Berman as interim CEO prevents institutional buyer re-rating; governance overhang persists through 2026",
+    "ALPR privacy legislation extends to major Rekor states (Maryland, Oklahoma, Florida) — incremental restrictions on data retention or use compress the public safety segment margin and limit contract renewal upside",
+    "GoSecure deepfake product fails to gain traction — announced Q3 2026 launch; if it misses or receives minimal law enforcement adoption, it consumes capital without revenue and destroys the narrative credibility that was supposed to support the stock"
+  ]
+}

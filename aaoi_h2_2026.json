@@ -1,0 +1,76 @@
+{
+  "ticker": "AAOI",
+  "company": "Applied Optoelectronics Inc.",
+  "market": "US (Nasdaq: AAOI) — manufacturing facilities in Sugar Land TX and Taipei Taiwan",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 5.0,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 3.5,
+    "supplier_concentration": 4.0,
+    "expansion_difficulty": 4.0,
+    "evidence_quality": 5.0,
+    "valuation_disconnect": 2.0,
+    "catalyst_timing": 4.5
+  },
+  "penalties": {
+    "dilution_financing": 3.5,
+    "governance": 1.0,
+    "geopolitics": 2.5,
+    "liquidity": 1.0,
+    "hype_risk": 3.5,
+    "accounting_quality": 2.0,
+    "cyclicality": 2.5,
+    "alternative_design_risk": 2.5
+  },
+  "evidence": [
+    {
+      "claim": "1.6T first volume order >$200M from major hyperscale customer (March 9, 2026); shipments begin Q3 2026; first volume 800G data center order (December 10, 2025); $53M additional 800G single-mode order (March 30, 2026); total hyperscale backlog >$324M",
+      "source": "Applied Optoelectronics press releases, GlobeNewswire, March 9 / December 10, 2025 / March 30, 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "FY2025 revenue $455.7M (+83% YoY); Q1 2026 revenue $151.1M (+51% YoY, +13% QoQ); full-year 2026 guidance raised to >$1.1B; CEO states actual demand $1.4-1.5B vs capacity-constrained $1.1B guide",
+      "source": "AAOI 10-K FY2025 (SEC); Q1 2026 earnings call (BigGo Finance, May 7, 2026)",
+      "strength": "primary"
+    },
+    {
+      "claim": "In-house compound semiconductor fabrication: MBE + MOCVD in Sugar Land, Texas for GaAs (VCSEL) and InP (DFB/FP); laser chips manufactured exclusively at Sugar Land; no external laser sourcing — vertical integration from epi to finished module",
+      "source": "AAOI 10-K FY2025 (SEC); Oxford Instruments partnership announcement (Compound Semiconductor News, January 2026)",
+      "strength": "primary"
+    },
+    {
+      "claim": "Texas facility expansion: 210,000 sq ft Sugar Land groundbreaking (February 13, 2026); two additional Pearland TX buildings (~388,000 sq ft) planned; targeting 650,000 units/month 800G/1.6T capacity by end 2026 (30% from Texas); Oxford Instruments InP process scale-up partnership",
+      "source": "GlobeNewswire February 13, 2026; Compound Semiconductor News January 2026; Q1 2026 earnings call",
+      "strength": "primary"
+    },
+    {
+      "claim": "$20.85M Texas Semiconductor Innovation Fund grant for Sugar Land expansion; 500+ jobs to be created — government validation of domestic compound semiconductor manufacturing importance",
+      "source": "GlobeNewswire, April 29, 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "400mW narrow-linewidth DFB pump laser for silicon photonics and CPO introduced December 2025; samples to select customers; volume production late 2026 — direct play on co-packaged optics AI infrastructure trend",
+      "source": "GlobeNewswire December 18, 2025; LightReading December 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Microsoft accounts for 28.8% of FY2025 revenue; Digicomm (CATV distributor) 53.1%; top 10 customers ~98% of revenue — high customer concentration with both upside (Microsoft AI infrastructure) and risk (Digicomm/CATV cyclicality)",
+      "source": "AAOI 10-K FY2025 (SEC); Q1 2026 10-Q",
+      "strength": "primary"
+    },
+    {
+      "claim": "InP component supply shortage structural through at least 2027 per analyst consensus; TrendForce: AI datacenter optical transceiver market $26B in 2026; InP 400G/800G components ~50% behind demand at end 2025",
+      "source": "TrendForce April 2026; TrendForce December 2025; multiple analyst reports 2026",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Stock up 1,200% in 12 months to ATH $233.67 (May 13, 2026) at P/S 12.65x vs historical median 1.29x — most of the AI optical thesis is already priced in; incremental disappointment (capacity ramp delay, order slip) would be disproportionately punished",
+    "CATV segment ~44% of Q1 2026 revenue (Digicomm) — AAOI is more CATV than AI by revenue in 2025; cable capex cycle downturn or loss of Digicomm relationship would materially compress revenue growth narrative",
+    "Still not GAAP profitable — net loss $38.2M in FY2025, deepening to $14.3M in Q1 2026 despite 51% revenue growth; accumulated deficit $504M; $382M equity raise in Q1 2026 significantly diluted existing shareholders",
+    "Texas fab ramp slower than planned — 650,000 units/month by end 2026 requires flawless execution on two simultaneous construction projects; InP epitaxy scaling at this pace has no modern precedent",
+    "Microsoft customer concentration 28.8% — loss or significant reduction of Microsoft AI infrastructure orders would remove the primary AI-direct revenue signal; AAOI has not disclosed diversification beyond Microsoft + Amazon",
+    "CPO pump laser (400mW BH DFB) volume production late 2026 — sampling is confirmed but volume production timeline is management guidance; AI infrastructure CPO deployment pace is uncertain"
+  ]
+}

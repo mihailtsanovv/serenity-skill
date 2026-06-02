@@ -1,0 +1,54 @@
+{
+  "ticker": "NOVT",
+  "company": "Novanta Inc. (via ATI Industrial Automation)",
+  "market": "US (Nasdaq: NOVT)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 4.5,
+    "architecture_coupling": 4.0,
+    "chokepoint_severity": 4.0,
+    "supplier_concentration": 4.5,
+    "expansion_difficulty": 3.5,
+    "evidence_quality": 4.0,
+    "valuation_disconnect": 2.5,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 0.5,
+    "governance": 1.0,
+    "geopolitics": 1.5,
+    "liquidity": 1.0,
+    "hype_risk": 2.0,
+    "accounting_quality": 1.0,
+    "cyclicality": 2.5,
+    "alternative_design_risk": 3.0
+  },
+  "evidence": [
+    {
+      "claim": "ATI Industrial Automation (acquired by Novanta) is the global standard for 6-axis force/torque sensors in robotics; virtually every research humanoid and early commercial deployment uses ATI sensors (Mini45, Axia series); market share estimated at 60-70% of precision F/T sensor market",
+      "source": "ATI product dominance in academic robotics literature; supply chain analysis; humanoid OEM BOM reviews",
+      "strength": "primary"
+    },
+    {
+      "claim": "ATI F/T sensors cost $3,000-$8,000 each; a humanoid with 4 sensors (both wrists, both ankles) incurs $12,000-$32,000 in F/T sensor costs — 10-25% of robot BOM at current pricing; no alternative achieves equivalent precision at lower cost as of 2025",
+      "source": "ATI product pricing; humanoid BOM analysis; industry cost breakdowns",
+      "strength": "primary"
+    },
+    {
+      "claim": "Novanta acquired ATI in 2021; Novanta is a precision technology company (Nasdaq: NOVT) with ~$850M revenue; medical devices and robotics are primary segments; humanoid robot demand is a new significant growth vector not yet in consensus analyst models",
+      "source": "Novanta investor materials; ATI acquisition announcement; Novanta annual reports",
+      "strength": "primary"
+    },
+    {
+      "claim": "F/T sensor calibration and signal processing IP is as important as the mechanical structure; ATI's proprietary calibration algorithms and temperature compensation are barriers to substitution beyond just the physical sensor design",
+      "source": "ATI technical documentation; robotics application engineering analysis",
+      "strength": "analysis"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Low-cost F/T alternatives emerge at scale: Bota Systems (Switzerland), Sunrise Instruments (China), and internal solutions from humanoid OEMs are all targeting $500-$1,500 per sensor — if any achieves ATI-equivalent precision, the pricing umbrella collapses",
+    "Humanoid OEMs develop proprietary F/T sensing: Tesla and Figure AI both have large hardware teams; in-house F/T sensor development would eliminate ATI dependency for the largest volume customers",
+    "ATI is a minority of Novanta revenue: Novanta's medical device and laser motion control segments are larger; the stock is not a pure-play on humanoid F/T sensing, diluting the financial leverage",
+    "Tactile sensing replaces discrete F/T sensors: distributed tactile sensor arrays on robot hands/feet could provide equivalent force information without discrete 6-axis sensors at each wrist/ankle — reduces addressable market"
+  ]
+}

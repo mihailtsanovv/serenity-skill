@@ -1,0 +1,60 @@
+{
+  "ticker": "SHA.DE",
+  "company": "Schaeffler AG",
+  "market": "Germany (XETRA: SHA)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 4.5,
+    "architecture_coupling": 4.5,
+    "chokepoint_severity": 4.0,
+    "supplier_concentration": 3.5,
+    "expansion_difficulty": 3.5,
+    "evidence_quality": 4.5,
+    "valuation_disconnect": 3.5,
+    "catalyst_timing": 4.0
+  },
+  "penalties": {
+    "dilution_financing": 0.0,
+    "governance": 1.5,
+    "geopolitics": 1.5,
+    "liquidity": 0.5,
+    "hype_risk": 2.0,
+    "accounting_quality": 0.5,
+    "cyclicality": 3.5,
+    "alternative_design_risk": 2.0
+  },
+  "evidence": [
+    {
+      "claim": "Schaeffler acquired Ewellix (January 2023, EUR 582M) — formerly SKF Linear Motion — which controls ~14% of global planetary roller screw market; combined with GSA/Rollvis (~52%), the Swiss-German bloc controls ~66-70% of precision planetary roller screws globally; Tesla Optimus uses 14 PRS per robot at $1,350-$2,700 each; lead times extended to 26 weeks in 2023",
+      "source": "Schaeffler press release (Ewellix acquisition); Drives&Controls EUR 582M; Morgan Stanley February 2025 note ($1,350-$2,700 per unit); Optimusk.blog Tesla Optimus supplier overview",
+      "strength": "primary"
+    },
+    {
+      "claim": "Schaeffler presented all-in-one planetary gear actuator at CES 2026 (January 6-9, Las Vegas) integrating two-stage planetary gearbox, electric motor, encoder, and controller in single unit; won Deutsche Messe Hermes Award; 25-30 actuators required per humanoid robot",
+      "source": "Schaeffler press release; Robotics247 CES 2026 coverage; Humanoids Daily 'All-in-One Actuator' article",
+      "strength": "primary"
+    },
+    {
+      "claim": "45 humanoid robotics customer relationships globally (May 2026); 5 signed supply contracts; named OEM partners: Agility Robotics (US), Neura Robotics (DE), Humanoid (UK) 5-year deal covering >50% joint actuator demand through 2031 (seven-digit actuator count), Leju Robotics (CN), ROKAE (CN, April 2026), Hexagon Robotics (CH); Hexagon AEON deployment: 1,000+ units in Schaeffler factories within 7 years; 2030 target: high-three-digit million EUR order book",
+      "source": "Schaeffler May 2026 investor presentation; RoboticsTomorrow Humanoid 5-year supply deal; Gasgoo ROKAE partnership; Globalbankingandfinance.com 2030 target",
+      "strength": "primary"
+    },
+    {
+      "claim": "Schaeffler Embodied Intelligent Robotics (Taicang) Co., Ltd. announced February 27, 2026: fully integrated R&D + production entity in China covering bearings, planetary roller screws, precision gearboxes, motors, sensors — allows supply to Chinese humanoid OEMs without geopolitical friction; claims ~50% of total humanoid robot material BOM addressable from Schaeffler portfolio",
+      "source": "Humanoids Daily 'Taicang Nexus' article; Schaeffler February 2026 press release",
+      "strength": "primary"
+    },
+    {
+      "claim": "Schaeffler FY2025: total revenue EUR 23.5B (-0.6% YoY); Bearings & Industrial Solutions EUR 6.37B (+0.7%); B&IS EBIT margin 7.5%; humanoid revenue <1% of group sales today but stated 10% of group revenue target from humanoid + defense combined by 2035; XZU purpose-engineered humanoid needle bearing debuted Hannover Messe 2025",
+      "source": "Schaeffler FY2025 full year press release; Schaeffler December 2025 investor presentation",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Automotive restructuring consumes capital and management bandwidth: Schaeffler's legacy Automotive Technologies division is under restructuring pressure (factory closures, headcount reduction), competing with the humanoid investment program for finite management attention and capex",
+    "Humanoid revenue is <1% of EUR 23.5B group sales: the stock is not a pure-play; earnings are driven by automotive bearings and E-Mobility, not humanoid robots — even a 10x humanoid revenue outcome has limited near-term EPS impact",
+    "GSA/Rollvis (private, ~52% global PRS share) is the more acute bottleneck and is inaccessible as a listed investment — Schaeffler's Ewellix at ~14% is the listed access point to PRS scarcity, but the pure-play monopolist cannot be owned",
+    "Chinese localization threat accelerates: Beite Technology targeting 2.6M PRS sets/year capacity (Kunshan facility, mass production 2026); Hangzhou Xinjian Transmission building 1M unit/year factory for Tesla; if C3-grade precision is achieved by 2027, Ewellix pricing power in Chinese market erodes",
+    "Customer switching costs are moderate at design stage: humanoid OEM engineers can specify Schaeffler INA, THK, or NSK bearings interchangeably at the design stage — Schaeffler's advantage is integration and service, not monopoly lock-in at component level"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "ticker": "REKR",
+  "company": "Rekor Systems Inc.",
+  "market": "US (Nasdaq: REKR)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 3.5,
+    "architecture_coupling": 3.0,
+    "chokepoint_severity": 2.5,
+    "supplier_concentration": 2.0,
+    "expansion_difficulty": 3.0,
+    "evidence_quality": 4.0,
+    "valuation_disconnect": 2.5,
+    "catalyst_timing": 3.5
+  },
+  "penalties": {
+    "dilution_financing": 4.5,
+    "governance": 4.0,
+    "geopolitics": 1.5,
+    "liquidity": 4.0,
+    "hype_risk": 2.0,
+    "accounting_quality": 3.0,
+    "cyclicality": 1.5,
+    "alternative_design_risk": 3.0
+  },
+  "evidence": [
+    {
+      "claim": "Georgia DOT: $50M minimum / up to $100M+ over 7 years — DaaS contract for FHWA-compliant traffic data, vehicle classification, incident detection; largest contract in company history",
+      "source": "Rekor Systems press release, GlobeNewswire, October 7, 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Oklahoma UVED statewide uninsured vehicle enforcement program renewed at $16.8M multi-year; program now in 6th year; reduced OK uninsured motorist rate from worst-nationally to 27th",
+      "source": "Rekor Systems press release / Investing.com, May 4, 2026",
+      "strength": "primary"
+    },
+    {
+      "claim": "Q3 2025 record results: $14.2M revenue, 63.4% adjusted gross margin, $1.5M adjusted EBITDA loss (best in company history); Q4 2025 first-ever operating cash flow positive quarter",
+      "source": "Rekor Systems Q3 2025 earnings, GlobeNewswire, November 13, 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Texas DOT statewide blanket PO for Rekor Command (June 2025); early Rekor Discover deployments with Caltrans and TxDOT announced October 2025 — potential for statewide conversion in 2026",
+      "source": "Rekor Systems press releases, GlobeNewswire, June and October 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Going-concern opinion issued by CBIZ CPAs (FY2025 10-K, March 2026) — second consecutive going-concern flag; Marcum LLP (prior auditor) resigned April 2025; Q1 2026 cash $12.6M vs. ~$20M annualized burn",
+      "source": "Rekor Systems 10-K FY2025 (SEC), March 31, 2026; auditor resignation 8-K, April 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Q1 2026: $10.3M revenue (+12% YoY), 64% recurring mix; missed consensus revenue by 21% and EPS by 75%; shares outstanding 136.6M (up 173% from 2021 peak)",
+      "source": "Rekor Systems Q1 2026 earnings (StockTitan), May 2026; MacroTrends share count history",
+      "strength": "primary"
+    },
+    {
+      "claim": "Flock Safety: $300M ARR (March 2025), 70% YoY growth, 2,500+ communities, 42 states, 2,000+ law enforcement agencies — primary ALPR competitor 12x Rekor's recurring revenue base",
+      "source": "Sacra research, March 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Washington SB 6002 (effective March 30, 2026): 21-day ALPR data retention limit, sensitive-location collection bans, immigration enforcement prohibition — first state ALPR privacy law; police temporarily paused LPR systems to comply",
+      "source": "MRSC Washington / Civic IQ Blog, April 2026",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Cash crisis before Georgia DaaS revenue ramps — $12.6M cash vs. ~$20M annualized burn implies 7-9 months runway; equity raise at $0.79/share would add 30-50M shares and destroy remaining per-share value",
+    "Q3 2025 63.4% margin was non-recurring — driven by high-margin perpetual license sales, not sustainable DaaS ramp; if Georgia deployment lags, Q4 2025 operating cash flow positivity does not repeat in 2026",
+    "Texas and California pilots do not convert to statewide contracts — early deployments are proofs of concept, not committed revenue; two states passing keeps Georgia as a single-data-point, not a replicable model",
+    "Flock Safety enters FHWA-compliant DOT traffic analytics — Flock has government relationships, ALPR infrastructure, and ample capital to build a competing Discover-style product and bid on DOT DaaS contracts",
+    "Privacy legislation cascades beyond Washington — additional state ALPR restrictions (data retention caps, sensitive-location bans) would compress the law enforcement ALPR segment that drives ~49% of recurring revenue",
+    "Two CEO changes in 10 months + auditor resignation + founder interim CEO = organizational instability; executive search for permanent CEO not yet complete as of Q1 2026"
+  ]
+}

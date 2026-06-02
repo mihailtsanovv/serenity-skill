@@ -1,0 +1,60 @@
+{
+  "ticker": "3362",
+  "company": "Ability Opto-Electronics Technology Co., Ltd. (先進光電科技)",
+  "market": "Taiwan (TPEx: 3362.TWO)",
+  "period": "H2 2026",
+  "factors": {
+    "demand_inflection": 3.0,
+    "architecture_coupling": 2.5,
+    "chokepoint_severity": 2.5,
+    "supplier_concentration": 2.0,
+    "expansion_difficulty": 2.5,
+    "evidence_quality": 4.0,
+    "valuation_disconnect": 2.0,
+    "catalyst_timing": 2.0
+  },
+  "penalties": {
+    "dilution_financing": 2.0,
+    "governance": 1.5,
+    "geopolitics": 2.0,
+    "liquidity": 2.0,
+    "hype_risk": 1.5,
+    "accounting_quality": 2.0,
+    "cyclicality": 3.0,
+    "alternative_design_risk": 3.0
+  },
+  "evidence": [
+    {
+      "claim": "CRITICAL TICKER CLARIFICATION: TWSE 3362 is Ability Opto-Electronics Technology (AOET), a plastic/glass optical lens manufacturer for notebook computers and ADAS cameras — NOT a compound semiconductor or VCSEL/laser company. No presence in AI data center optical interconnect supply chains.",
+      "source": "Yahoo Finance Taiwan (3362.TWO); MarketScreener; StockAnalysis.com; DigiTimes December 31, 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "AOET holds ~70-77% global market share in notebook computer camera lenses — dominant niche position but in a mature, commoditizing market with declining average selling prices",
+      "source": "TrendForce data cited in CMoney 2025; Fugle earnings call notes December 30, 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "FY2025 financial deterioration: revenue NT$4,317M (+0.9% YoY), but gross margin collapsed to 18.98% (down 5.34pp), resulting in first net loss in years of NT$154M; Q1 2026 gross margin 13.11%, operating margin -8.08% — deterioration continuing",
+      "source": "AOET TWSE filings; Fugle earnings call notes December 30, 2025; CMoney financial data",
+      "strength": "primary"
+    },
+    {
+      "claim": "AOET 2026 capex: NT$2B (~$65M USD) directed at Vietnam touch/fingerprint production capacity; funded partly via NT$420M rights offering; management guided AI PC refresh cycle peak ~2028 as next demand inflection",
+      "source": "CNYes 2026; CMoney 2026; DigiTimes December 31, 2025",
+      "strength": "primary"
+    },
+    {
+      "claim": "Aiimax subsidiary developing metalens/metasurface optics — only tangential AI connection; R&D stage with no disclosed revenue; competing against deep-pocketed players in an early market",
+      "source": "7evenguy.com AOET profile; Fugle earnings call notes December 30, 2025",
+      "strength": "primary"
+    }
+  ],
+  "what_could_weaken_view": [
+    "Gross margin recovery requires NB lens pricing stabilization — Q1 2026 at 13.11% gross margin is structurally unsustainable; if NB market pricing pressure continues from Chinese competitors, the company cannot fund its Vietnam/fingerprint expansion from operations",
+    "AI PC refresh cycle peak pushed beyond 2028 — management's primary catalyst for NB lens demand recovery; if Intel/AMD CPU delays or AI PC adoption is slower than expected, NB camera lens volumes stay soft",
+    "Vietnam expansion higher-cost than China baseline — supply chain diversification demanded by HP/Dell increases per-unit costs; cannot be passed on in a price-competitive lens market",
+    "Metalens (Aiimax subsidiary) remains pre-commercial — Aiimax R&D is real but requires 3-5+ years to any commercial volume; in the meantime it consumes cash without contributing revenue",
+    "No Serenity scarce-layer position — AOET is a commodity optical lens manufacturer; no meaningful moat relative to the AI optical interconnect supply chains this session has been studying"
+  ]
+}
